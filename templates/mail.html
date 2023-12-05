@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <h1 class="title"> Hej!..{{name}} Check your mailbox....name of your buddy has been send ...😁</h1>
+            <a href="{{ url_for('home') }}">
+                <button class="btn btn-success rounded-pill px-3" role="button"> Home</button>
+            </a>
+        </div>
+        <div class="col">
+            <img class="santa2" src="/static/santa2.gif" style="align:center">
+        </div>
+    </div>
+</div>
+
+{% endblock %}

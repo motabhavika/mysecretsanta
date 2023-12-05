@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block title %} Secret Santa {% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <h1 class="title">Welcome to Secret Santa Generator</h1>
+
+            <img class="santa_photo" src="/static/secret-santa.jpg" height="500" width="500">
+
+        </div>
+            <div class="col-sm-6">
+                <h2 class="subtitle">How does it works? </h2>
+                <p class="describe">We already have player’s list.
+                    Secret Santa,will scrambled the list and all players will receive
+                    email along with the name of their Secret Santa gift buddy.</p>
+                <a href="{{ url_for('show_list') }}">
+                    <button class="btn btn-success rounded-pill px-3" role="button">
+                        Player's list
+                    </button>
+                </a>
+                <p class="fun_part">Fun part is Secret Santa
+                will not choose your “spouse”
+                as your gift buddy,isn’t it cool?</p>
+                <form method="POST" action="{{url_for('assign')}}">
+                    <label for="name"> Tell me your name:?</label>
+                    <input class="name_input" type="text" name="name">
+                </form>
+
+                <h2 class="merry"> ❄️⛄️🌲"Merry Christmas" ❄️⛄️🌲</h2>
+            </div>
+
+
+
+    </div>
+</div>
+{% endblock %}

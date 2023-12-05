@@ -1,0 +1,78 @@
+
+body{
+background-color : #F9F2E8
+}
+
+h1.title{
+font-family: cursive, sans-serif;
+color:#B53C24;
+font-size: 30px;
+margin-top:20px
+}
+
+img.santa_photo{
+height: 400px;
+width:450px;
+margin:20px;
+border:5px solid B53C24;
+border-width: 10px
+}
+
+h2.subtitle{
+color:black;
+margin-top:10px;
+font-size:25px;
+font-family: cursive, sans-serif;}
+
+p.describe{
+color:#6B842A;
+font-size:21px;
+margin-top:10px;
+font-family: cursive, sans-serif;}
+
+.list_items{
+font-size:21px;
+margin-top:10px;
+padding-left:20px
+font-family: cursive, sans-serif;
+color:#6B842A;
+}
+
+img.santa1{
+margin-bottom:20px}
+
+img.santa2{
+
+height:300px;
+width:300px;
+margin: 20px 0px 0px 0px}
+
+h2.merry{
+position:center;
+margin-top:20px;
+color:red;
+font-family:cursive, sans-serif;}
+
+p.fun_part{
+font-size:21px;
+color:#B53C24;
+font-family: cursive, sans-serif;
+padding:10px
+}
+
+
+.name_input{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+    color:#6B842A;
+    background-color: transparent;
+    outline: 2px solid #6B842A;
+}
+
+label{
+    color: green;
+    font-family: cursive, sans-serif;
+    font-size:21px
+}
